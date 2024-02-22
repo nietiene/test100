@@ -1,5 +1,43 @@
-.rara{
-    background-color: darkorchid;
-    color: cyan;
-    width: 60px;
+*{
+margin: 0;
+background-color: white;
+}
+fieldset{
+    background-color: whi;
+    width: 260px;
+color: darkblue;
+box-shadow: 2px 3px 8px black;
+border-top-left-radius: 30px;
+border-end-end-radius: 30px;
+margin: 10% auto;
+}
+label{
+    background-color: transparent;
+    font-weight: bold;
+}
+.input{
+    padding: 5px;
+    width: 300px;
+    border: none;
+
+    border: none; 
+    background: transparent;
+    border-bottom: 1px solid black; 
+    outline: none;
+}
+button{
+    background-color: darkblue;
+    color: wheat;
+    width: 300px;
+    border: none;
+    height: 30px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+button:hover{
+    background-color: blue;
+    
+}
+.left{
+    float: left;
 }
